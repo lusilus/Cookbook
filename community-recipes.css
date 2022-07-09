@@ -1,0 +1,116 @@
+#communityRecommendations {
+    position: relative;
+    background: linear-gradient(to left, #ffffff00 50%, var(--primaryColor) 50%);
+    color: var(--terciaryColor);
+    padding-bottom: 3.2rem;
+}
+#communityRecommendations h2 {
+    width: 50%;
+    padding: 64px 64px 42px 64px;
+}
+img.cockingImage {
+    position: absolute;
+    bottom: 3.2rem;
+    left: 3.2rem;
+}
+.sliderArrows {
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 3.4rem;
+}
+.sliderArrows img:last-child {
+    margin-left: 20px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+.slider {
+  width: 100%;
+  height: 572px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 572px;
+  scroll-snap-align: center;
+  margin-right: 0px;
+  box-sizing: border-box;
+  transform-origin: center center;
+  transform: scale(1);
+}
+
+.slide__text {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.slider::before {
+    background-image: url(/assets/arrows-left.svg);
+}
+
+.slider::after {
+    background-image: url(/assets/arrows-right.svg);
+}
+a.slide__next,
+.slider::after {
+    margin-left: 60px;
+}
+
+.slider::before,
+.slider::after,
+.slide__prev,
+.slide__next {
+  position: absolute;
+  width: 40px;
+  height: 34px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  z-index: 1;
+  pointer-events: none;
+  bottom: 0rem;
+left: calc(50% - 50px);
+}
+
+.cardWrapper {
+    width: 25%;
+    padding: 0 1.6rem;
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 398px;
+}
+.slide .cardWrapper:nth-of-type(4n) {
+    margin-right: -18.4rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
