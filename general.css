@@ -70,7 +70,8 @@ section {
     box-shadow: var(--boxShadow);
     color: var(--secondaryColor);
     font-size: 1.6rem;    
-    padding: 1rem;                  
+    padding: 1rem;     
+    text-align: center;             
 }
 
 .card-md {
