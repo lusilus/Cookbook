@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+* {
+    border: none;
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --primaryColor: #B11226;
+    --primaryColorHover: #9D0C1F;
+    --secondaryColor: #000;
+    --terciaryColor: #fff;
+    --backgroundColor: #F5F5F5;
+    --boxShadow: 0px 4px 20px rgba(40, 33, 26, 0.15);
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--backgroundColor);
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.homeSearch {
+    padding-top; 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primaryColor);
+    background-image: url(./assets/header-icon-transparent.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center; 
+    height: 60vh;
+    background-size: cover;
+
+}
+
+    
+    
+.search-recipe-form {
+        background-image: url("./assets/search.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: 90% 50%;
+        width: 564px;
+        height: 80px;
+        border-radius: 40px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2rem;
+        z-index: 10;
+        padding: 40px;
+        margin-top: 32px;
+        margin-bottom: 109px;
+    }
+    
+    .searchBar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    form {
+        padding: 32x 50px 75px 30px;
+    }
