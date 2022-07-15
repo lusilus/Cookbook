@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+* {
+    border: none;
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --primaryColor: #B11226;
+    --primaryColorHover: #9D0C1F;
+    --secondaryColor: #000;
+    --terciaryColor: #fff;
+    --backgroundColor: #F5F5F5;
+    --boxShadow: 0px 4px 20px rgba(40, 33, 26, 0.15);
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+}
+
+
+body {
+    background: var(--backgroundColor);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+} 
+
+h1, h2 {
+    font-size: 4rem;
+    background-color: var(--primaryColorHover);
+    color: var(--backgroundColor);
+    margin-right: 10%;
+    margin-top: 10%;
+    /*border: 2px solid lime;*/
+    padding-left: 7%;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+} 
+
+h4 {
+    font-size: 2rem;
+    /*border: 2px solid red;*/
+    padding: 3%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+
+h5 {
+    font-size: 1.6rem;
+} 
+
+h6 {
+    font-size: 1.6 rem;
+    padding-left: 2%;
+    
+}
+
+a {
+    font-size: 1.2rem;
+    color: var(--primaryColor);
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: var(--secondaryColor);
+    padding-left: 7%;
+    width: 90%;
+    /*border: 2px solid red;*/
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.container{
+    width: calc(100vw - 4rem);
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--terciaryColor);
+    box-shadow: var(--boxShadow);
+    color: var(--secondaryColor);
+    font-size: 1.6rem;    
+    padding: 1rem;                  
+}
+
+.card-md {
+    padding: 1.2rem;
+}
+
+.card-lg { 
+    padding: 1.6rem;
+}
+
+.star img, .clock img{
+    width: 20px;
+    height: auto;
+    display: inline;
+    /*border: 2px solid red;*/
+    
+}
+.eggImgResponsive img{
+    max-width: 100rem;
+    max-height: 50%rem;
+    width: 100%;
+   /* border: 2px solid red;*/
+}
+
+
+.serving{
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid red;*/
+    padding-left: 4%;
+}
+.clock img{
+    margin: 15%;
+    display: flex;
+
+}
+.reviewRecipe{
+    /*border: 2px solid lime;*/
+    display: flex;
+    flex-direction: row;
+    padding-left: 7%;
+    margin-top: 3%;
+
+}
+.review {
+    /*border: 2px solid blue;*/
+    display: flex;
+    width: 17%;
+    padding-left: 5%;
+    
+
+}
+
+.ingredients{
+    /*border: 2px solid blue;*/
+    
+    
+
+}
+ul {
+    list-style: none;
+    padding: 5%;
+}
+li{
+    padding: 1%;
+}
+ol{
+    padding: 5%;
+    margin-left: 7%;
+}
+.tellUs, .community, .starCommunity { 
+
+    padding-left: 4%;
+    padding-bottom: 1%;
+    padding-top: 4%;
+
+}
+.star img{
+    width: 20px;
+    height: auto;
+    display: inline;
+    /*border: 2px solid red;*/
+    position: relative;
+    left: 4%;
+    margin-top: 1%;
+}
+.sub{
+   padding-left: 7%;
+  /* border: 2px solid lime;*/
+   display: inline;
+   
+}
+.arrowSub{
+    display: flex;
+    flex-direction: row;
+   /* border: 2px solid blue;*/
+}
+.arrow{
+    /*border: 2px solid red;*/
+    width: 10px;
+    height: auto;
+    display: inline;
+    margin-left: 2%;
+}
+.starCommunity{
+    display: flex;
+    /*border: 2px solid red;*/
+    flex-direction: row;
+    align-items: center;
+    padding-left: 7%;
+  
+
+}
+h6 ,.date{
+    position: relative;
+    left: 3%;
+   /* border: 2px solid red;*/
+
+}
+.comment{
+    padding-left: 7%;  
+}
+textarea{
+    font-family: 'Raleway', sans-serif;
+    color:#B11226;
+    font-size: 1.2rem;
+    /*border: 2px solid red;*/
+    text-align: left;
+    
+    
+    
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 4.8rem;
+    }
+    
+    h2 {
+        font-size: 4rem;
+    }
+    
+    h3 {
+        font-size: 3.2rem;
+    } 
+    
+    h4 {
+        font-size: 2.4rem;
+    } 
+    
+    h5 {
+        font-size: 2rem;
+    } 
+
+    p, a {
+        font-size: 1.6rem;
+    }
+
+    section {
+        padding: 6rem 0;
+    }
+
+    .container{
+        width: calc(100vw - 5rem);
+    }
+    
+    
+    }
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .container{
+        width: 1100px;
+    }
+    
+}
