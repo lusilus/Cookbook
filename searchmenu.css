@@ -1,0 +1,57 @@
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+.homeSearch {
+    padding-top: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primaryColor);
+    background-image: url(./assets/header-icon-transparent.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.search-recipe-form {
+    background-image: url("./assets/search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    width: 564px;
+    height: 80px;
+    border-radius: 40px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    z-index: 10;
+    padding: 40px;
+    margin-top: 32px;
+    margin-bottom: 109px;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form {
+    padding: 32x 50px 75px 30px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    h1 {
+        font-size: 2.45rem;
+        color: #fff;
+        padding-top: 51px;
+        padding-bottom: 24px;
+    }
+}

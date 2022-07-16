@@ -5,6 +5,7 @@
 }
 #communityRecommendations h2 {
     padding: 3.2rem;
+    text-align: left;
 }
 img.cockingImage {
     display: none;
